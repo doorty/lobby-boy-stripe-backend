@@ -1,5 +1,5 @@
 {
-  "name": "Example Stripe iOS Backend for Lobby Boy",
+  "name": "Example Lobby Boy Backend",
   "description": "For testing the Stripe integration in Lobby Boy app at https://github.com/supportkit/lobby-boy",
   "repository": "https://github.com/supportkit/lobby-boy-stripe-backend",
   "keywords": ["ios", "stripe", "lobby boy"],
