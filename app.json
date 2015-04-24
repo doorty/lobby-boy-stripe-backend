@@ -1,8 +1,8 @@
 {
-  "name": "Example Stripe iOS Backend",
-  "description": "For testing the Stripe example iOS apps at github.com/stripe/stripe-ios",
-  "repository": "https://github.com/stripe/example-ios-backend",
-  "keywords": ["ios", "stripe"],
+  "name": "Example Stripe iOS Backend for Lobby Boy",
+  "description": "For testing the Stripe integration in Lobby Boy app at https://github.com/supportkit/lobby-boy",
+  "repository": "https://github.com/supportkit/lobby-boy-stripe-backend",
+  "keywords": ["ios", "stripe", "lobby boy"],
   "env": {
     "STRIPE_TEST_SECRET_KEY": {
       "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like sk_test_****)",
