@@ -8,7 +8,7 @@ Stripe.api_key = ENV['STRIPE_TEST_SECRET_KEY']
 
 get '/' do
   status 200
-  return "Great, your backend is set up. Now you can configure the Stripe example iOS apps to point here."
+  return "This is Lobby Boy's sample backend that does Stripe Transactions!"
 end
 
 post '/user' do
