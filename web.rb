@@ -34,15 +34,12 @@ end
 
 post '/charge' do
 
-  customer = Stripe::Customer.retrieve(params[:customerId])
-
   # Create the charge on Stripe's servers - this will charge the user's card
   begin
     charge = Stripe::Charge.create(
       :amount => params[:amount], # this number should be in cents
       :currency => "usd",
       :customer => params[:customerId]
-      :receipt_email => customer.email
     )
   rescue Stripe::CardError => e
     status 402
