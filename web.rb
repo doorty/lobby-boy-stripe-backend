@@ -8,7 +8,7 @@ Stripe.api_key = ENV['STRIPE_TEST_SECRET_KEY']
 
 get '/' do
   status 200
-  return "This is Lobby Boy's sample backend that does Stripe Transactions!"
+  return "This is Genie's sample backend that does Stripe Transactions!"
 end
 
 post '/user' do
@@ -38,7 +38,7 @@ post '/charge' do
   begin
     charge = Stripe::Charge.create(
       :amount => params[:amount], # this number should be in cents
-      :currency => "usd",
+      :currency => "zar",
       :customer => params[:customerId]
     )
   rescue Stripe::CardError => e
